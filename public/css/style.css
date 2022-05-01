@@ -299,4 +299,20 @@ footer a .fas {
   padding-bottom: 2px;
 }
 
+header {
+  height: 61px;
+}
+header h1 {
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+header .redirection {
+  position: relative;
+  right: 46%;
+  bottom: 23%;
+  top: -25px;
+  color: black;
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=style.css.map */

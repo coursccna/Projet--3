@@ -1,0 +1,18 @@
+@use"../mixin/shadow.scss" ;
+@use"../mixin/hover.scss";
+@use"../mixin/animationheart.scss";
+header{ 
+    height: 61px;
+    h1{
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+    & .redirection{
+        position: relative;
+        right: 46%;
+        bottom: 23%;
+        top: -25px;
+        color: black;
+        font-weight: bold;
+    }
+}
