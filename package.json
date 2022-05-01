@@ -1,0 +1,11 @@
+{
+  "name": "projet--3",
+  "version": "1.0.0",
+  "description": "Version essai",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/style.scss:./public/css/style.css"
+  },
+  "author": "Youness",
+  "license": "ISC"
+}
