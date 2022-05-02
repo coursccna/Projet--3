@@ -22,3 +22,29 @@ img{
     height: 270px;
     object-fit: cover;
 }
+.choice{
+    padding-left: 0px;
+    width: 100%;
+    transform: translateY(-50px);
+    background-color: #f7f7f7;
+    border-radius: 45px 45px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative; 
+    margin-bottom: -69px; 
+        }
+        .choice__title{
+            padding-left: 18px;
+            padding-right: 11px;
+            }
+            h2{
+                font-family: "shrikhand", "cursive"; 
+                margin-top: 44px;
+                margin-bottom: 20px;
+                font-size: 27px;
+                margin-left: 0px;
+                     }                      
+                    .heart{
+                  @include animationheart.heart;   
+                   } 
