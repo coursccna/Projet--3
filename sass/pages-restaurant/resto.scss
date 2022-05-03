@@ -48,4 +48,9 @@ img{
                     .heart{
                   @include animationheart.heart;   
                    } 
-                   
+                   .card-main{
+                    padding: 0px;
+                }
+                .card{
+                   background-color: #f7f7f7; 
+                }
